@@ -1,1 +1,105 @@
 /*Schrijf hier jouw css*/
+
+/*Schrijf hier jouw css*/
+
+h1, h3 {
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    /*border: 2px dashed blue;*/
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f3d9;
+
+}
+
+div {
+    /*border: 2px dashed yellow;*/
+}
+
+
+.left-text {
+
+    background-color: #c16e70;
+    max-width: 280px;
+    height: 350px;
+}
+
+.center-text  {
+    background-color: #c16e70;
+    max-width: 280px;
+    height: 350px;
+}
+
+.right-text  {
+    background-color: #c16e70;
+    max-width: 280px;
+    height: 350px;
+}
+
+main {
+    /*border: 2px dashed green;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+
+
+
+
+}
+
+p {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+
+}
+
+
+
+
+nav {
+
+    /*border: 2px dashed grey;*/
+    display: flex;
+    flex-direction: column;
+    background-color: #030027;
+    color: #E6EAEB;
+
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 100px;
+    padding: 20px;
+
+
+}
+
+li {
+    /*margin: 40px;*/
+    /*padding: 40px;*/
+    font-size: 20px;
+    gap: 10px;
+
+}
+
+
+
+
+.nav-analytica {
+    flex-grow: 4;
+    font-size: 40px;
+
+
+}
+
+
